@@ -1,0 +1,20 @@
+dsastro.settings:
+  type: config_object
+  label: 'DS Astro Settings'
+  mapping:
+    dsastro:
+      type: mapping
+      mapping:
+        page_title:
+          type: text
+          label: 'Title for astrology page:'
+        page_text:
+          type: text
+          label: 'Text for astrology page:'
+block.settings.dsastro_block:
+  type: block_settings
+  label: 'DS Astro block'
+  mapping:
+    dsastro_block_settings:
+      type: text
+      label: 'DS Astro block settings'

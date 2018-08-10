@@ -1,0 +1,112 @@
+                       North American Daily Ephemeris
+                                    FAQ
+                          Frequently Asked Questions
+
+What is a North American Daily Ephemeris?
+
+Very simply it is an ephemeris set to North American time zones rather than
+the usual European times zones. (Beginners note: An ephemeris is a
+mathematically precise listing of where the planetary bodies are located in
+the sky. Both astrologers and astronomers deem an accurate ephemeris very
+important.)
+
+Why bother doing a North American listing?
+
+For North American astrologers, this represents ease of use for quick
+reference. I'm a North American astrologer, and I see a lot a clients. The
+conversions of time and date from the European time zone listings to North
+American time zones, frankly, is a pain, when I'm doing transit work with
+clients. I need an ephemeris that's fast and accurate for the time zone I live
+in (I'm Virgo, so there's no nonsense on these things).
+
+As a result I whipped together this ephemeris as a short cut. Gosh, is it
+handy when a client asks a question during a reading about what's up in the
+next two or three weeks, or years, or decades. I've developed quite a 
+reputation for pin-pointing energy exactly to the day in transit work. 
+This ephemeris is the reason why, and I'm happy to share it with you.
+
+What's included in this ephemeris?
+
+Daily listing for the 10 standard planets in the tropical zodiac as well as
+daily listings for Chiron and the mean Moon's node for the entire 21st
+Century. The ephemeris covers the entire 21st Century plus a little more, 
+years 2000 through 2110 in all. Each year is a separate ascii file for a
+total of 111 ephemeris files in all.
+
+You don't get daily listings for Chiron included in any other ephemeris which
+I've seen, so this is a useful feature. If you haven't tracked Chiron on a
+daily basis in your own chart or in your clients' charts, be prepared to learn
+a few things about the influence of the Centaur in your life.
+
+How do I read the ephemeris?
+
+This ephemeris file is set for 11:59 p.m. Eastern Standard Time 
+(New York City / Toronto time).
+
+The advantage of this setting for North American astrologers is that you can
+see where planets will *finish* the day in question without having to do the
+mental gymnastics the European (GMT) ephemeris require. If you do any kind of
+daily transit work in North America, you'll spot the  advantage of this right
+away.
+
+Example:
+
+Mo/Dy/Yr  Sun    Moon   Merc   Venu   Mars   Jupi   Satu   Uran   Nept   Plut  Chir   Node   
+ 3/12/99 22Pi09 24Cp22  3Ar28.23Ar40 12Sc01  6Ar28  1Ta15 14Aq55 3Aq34 10Sg29  3Sg52 20Le37.
+
+For instance at the end of the day (11:59 p.m. EST) March 12, 1999 Mercury is 
+located at 3 Aries 28 Retrograde (the period next to the location is how 
+Astrolog indicates a retrograde planet) for the eastern time zone, ie,  New
+York City or Toronto. That same 3 Aries 28 Retrograde position for Mercury
+would occur at 8:59 p.m. in the pacific time zone, ie, Los Angeles  or
+Vancouver.
+
+No attempt to take into account daylight savings time has been made, given
+that daylight time in North America is only partially standardized yet. You'll
+have to make the adjustments yourself for daylight time, atlantic time, 
+central time, mountain time, and pacific time, etc.
+
+Regardless, for North American locations, this ephemeris will always be within
+3 hours or less of your local time, which is  much easier than the 5-8 hour
+shifts involved with a GMT ephemeris. You will know where the planets are
+*today* right where you live.
+
+Where did the ephemeris calculations come from?
+
+The calculations came from that wonderful piece of astrology freeware,
+Astrolog, which contains some fine mathematical capability. I recommend
+Astrolog to the working astrologer not because it's easy to use (Warning: it
+is not easy to use) but because it has features like this which aren't
+available even in most professional astrological software. Be sure to download
+*all* the ephemeris files. My links page can whisk you directly to 
+Astrolog's home page for this freebie, or you may point your browser to:
+http://www.astrolog.org/astrolog.htm
+
+If you already have Astrolog and you've missed this ephemeris option, don't
+despair. Like so many good features in Astrolog it is not at all obvious or
+intuitive. It took me many hours of both line commands in DOS and mouse clicks
+in Windows just to get the raw data buried amongst an abundance of programing
+"hash". Then it took even more hours of work writing and executing several
+macro editing programs to process the "hash" out of the data using the ED.EXE
+editor in WordPerfect. (Even though it's been around for a few years, this is
+still the best combined dos/hex editor around, IMHO.)
+
+Are there any glitches in this ephemeris?
+
+Note that the Astrolog indication for planetary stations can differ as much as
+a day from the stations listed in Michelsen's American Ephemeris. You'll have
+to decide for yourself which one you take as the final authority. I lean
+toward Michelsen. There is also an omission of eclipses and moon phases in 
+this ephemeris. That's my conscious omission as I'm content to look them up in
+Michelsen the few times that I need them. 
+
+Is this ephemeris free?
+
+Yes. Astrolog is free, and so is this ephemeris. Pass it along if you like.
+But please include this FAQ if you distribute the ephemeris so people don't
+get confused about what's going on with the time of day.
+
+Love and peace,
+
+Richard Brown 
+http://www.karmastrology.com

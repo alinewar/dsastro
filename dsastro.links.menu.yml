@@ -1,0 +1,6 @@
+dsastro.admin:
+  title: 'DS Astro settings'
+  description: 'Set astrology page title and message'
+  parent: system.admin_config_development
+  route_name: dsastro.form
+  weight: 90

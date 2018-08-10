@@ -1,0 +1,28 @@
+# Each route is defined by a machine name, in the form of module_name.route_name.
+# required
+dsastro.basic:
+  # This path takes dynamic arguments, which are enclosed in { }.
+  # Make controller accept $month, $day, $year
+  # required
+  path: '/astro/{month}/{day}/{year}'
+  defaults:
+    # For page callbacks that return a render array use _controller.
+    # Namespace\Class::Method
+    _controller: 'Drupal\dsastro\Controller\AstrologyController::getDetails'
+    _title: 'DS Astro'
+    # By putting in default values the arguments become optional
+    month: '3'
+    day: '7'
+    year: '1969'
+  # Require a permission to access this route.
+  # Can create permissions in permissions.yml file or use existing
+  requirements:
+    _permission: 'Access DS Astrology'
+
+dsastro.form:
+  path: '/admin/config/development/dsastro'
+  defaults:
+    _form: 'Drupal\dsastro\Form\DSAstroForm'
+    _title: 'DS Astrology Settings'
+  requirements:
+    _permission: 'administer site configuration'

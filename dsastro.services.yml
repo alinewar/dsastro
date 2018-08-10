@@ -1,0 +1,3 @@
+services:
+  dsastro.astrology:
+    class: Drupal\dsastro\Model\Astrology

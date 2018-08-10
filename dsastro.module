@@ -1,0 +1,65 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dsastro_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.dsastro':
+      return t('
+        <h2>DS Astro Help</h2>
+        <h3>Instructions</h3>
+        <p>Unpack in the <em>modules</em> folder (currently in the root of your Drupal 8 installation) and enable in <strong>/admin/modules</strong>.</p>
+        <p>Then, visit <strong>/astro/mm/dd/yyyy</strong> to see the sun sign and compatibility for that date.</p>
+        <p>where:</p>
+        <ul>
+          <li><em>mm</em> is the <em>month</em></li>
+          <li><em>dd</em> is the <em>day</em></li>
+          <li><em>yyyy</em> is the <em>year</em> between 1900 and 2099</li>
+        </ul>
+        <p>There is also a DS Astro block that will allow you to select the date.</p>
+        <p>If you need, there\'s also a specific <em>Access DS Astrology</em> permission.</p>
+      ');
+    case 'dsastro.basic':
+      return t('
+        <h2>Get Astrology</h2>
+        <h3>Instructions</h3>
+        <p>Go to url /astro/dd/mm/yyyy so see astrology information for that date. You can also enter a date in the Get Astrology block. This only works for 20th and 21st centuries.</p>
+      ');
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function dsastro_theme($existing, $type, $theme, $path) {
+  $variables = array(
+    'dsastro' => array(
+      'variables' => array(
+        'source_text' => NULL,
+      ),
+      'template' => 'dsastro',
+    ),
+  );
+  return $variables;
+}
+
+/**
+ * Template preprocess function for dsastro.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - source_text
+ */
+function template_preprocess_dsastro(&$variables) {
+  $punctuation = array('. ', '! ', '? ', '... ', ': ', '; ');
+  for ($i = 0; $i < count($variables['source_text']); $i++) {
+    $big_text = explode('. ', $variables['source_text'][$i]);
+    for ($j = 0; $j < count($big_text) - 1; $j++) {
+      $big_text[$j] .= $punctuation[floor(mt_rand(0, count($punctuation) - 1))];
+    }
+    $variables['source_text'][$i] = implode('', $big_text);
+  }
+}
