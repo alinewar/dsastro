@@ -354,7 +354,7 @@ class Astrology implements AstrologyInterface {
           $ElementDescription = "Passionate";
           $Quality = "Mutable";
           $QualityDescription = "Analytical";
-          $BestMatch = "Leo, Sagittarius";
+          $BestMatch = "Leo, Aries";
           $SecondBestMatch = "Pisces, Gemini, Virgo";
           break;
         case "Cp":
